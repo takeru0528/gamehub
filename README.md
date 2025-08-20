@@ -1,4 +1,4 @@
-# kannji-typing
+# kanji-typing
 レトロ風漢字タイピング
 # 🈶 kanji-typing
 
