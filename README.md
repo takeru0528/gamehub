@@ -19,6 +19,6 @@
 ## 📦 インストール方法
 
 ```bash
-git clone https://github.com/takeru0528/kanji-typing-game.git
+git clone https://github.com/takeru0528/kanji-typing.git
 cd kanji-typing-game
 python manage.py runserver
