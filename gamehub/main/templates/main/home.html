@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Retro Typing Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: #000;
+            color: #0ff;
+            font-family: 'Press Start 2P', cursive;
+            text-align: center;
+            padding: 50px;
+        }
+        .btn {
+            background-color: #f0f;
+            color: #000;
+            padding: 10px 20px;
+            margin: 10px;
+            border: none;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .game-card {
+            background-color: #111;
+            border: 2px solid #0ff;
+            margin: 20px auto;
+            padding: 20px;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🕹️ Retro Typing Hub</h1>
+    <p>懐かしのタイピングゲームを集めたレトロゲームセンター！</p>
+
+    <div>
+        <a href="{% url 'game_list' %}" class="btn">ゲーム一覧</a>
+        <a href="{% url 'game_upload' %}" class="btn">ゲームを投稿</a>
+    </div>
+
+    <div class="game-card">
+        <h2>🚀 宇宙タイピング</h2>
+        <p>宇宙語を打ちまくれ！</p>
+        <a href="{% url 'game_detail' game_id=1 %}" class="btn">プレイする</a>
+    </div>
+</body>
+</html>
