@@ -1,8 +1,6 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
-*.pyd
 *.env
 
 # Django
@@ -16,6 +14,6 @@ db.sqlite3
 .DS_Store
 Thumbs.db
 
-# Virtual environments
+# 仮想環境
 venv/
 env/
